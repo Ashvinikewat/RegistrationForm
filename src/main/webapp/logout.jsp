@@ -3,5 +3,5 @@
 <%
     // Invalidate the session and redirect to index.jsp
     session.invalidate();
-    response.sendRedirect("login.jsp");
+    response.sendRedirect("Login.jsp");
 %>
