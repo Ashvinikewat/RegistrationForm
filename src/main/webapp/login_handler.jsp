@@ -16,6 +16,6 @@ if (username != null && password != null && username.equals(defaultUsername) && 
     response.sendRedirect("dashboard.jsp");
 } else {
     // If authentication fails, redirect back to index.jsp with an error parameter
-    response.sendRedirect("login.jsp?error=1");
+    response.sendRedirect("Login.jsp?error=1");
 }
 %>
