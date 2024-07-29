@@ -55,6 +55,6 @@
     <p><strong>Year:</strong> <%= year %></p>
     <p><strong>Percentage:</strong> <%= percentage %></p>
 </div>
-
+<a href = "Login.jsp">Login here</a>
 </body>
 </html>
